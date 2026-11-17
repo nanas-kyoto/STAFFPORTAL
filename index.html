@@ -27,13 +27,13 @@
 
   /* 切り替えタブ */
   .tabs {
-    display: grid; grid-template-columns: repeat(4, 1fr); gap: 3px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
     background: #fff; border: 1px solid var(--border); border-radius: 12px;
     padding: 4px; position: sticky; top: 8px; z-index: 5;
   }
   .tabs button {
-    border: 0; background: transparent; padding: 11px 0; border-radius: 9px;
-    font: inherit; font-weight: 700; font-size: .8rem; color: var(--sub); cursor: pointer;
+    border: 0; background: transparent; padding: 10px 0; border-radius: 9px;
+    font: inherit; font-weight: 700; font-size: .9rem; color: var(--sub); cursor: pointer;
     white-space: nowrap;
   }
 
@@ -159,10 +159,10 @@
   </header>
 
   <div class="tabs">
-    <button id="tabLinks" class="active" type="button">リンク集</button>
-    <button id="tabTel" type="button">問合せ先</button>
-    <button id="tabCred" type="button">ログイン</button>
-    <button id="tabConv" type="button">自動変換</button>
+    <button id="tabLinks" class="active" type="button">QR・リンク集</button>
+    <button id="tabTel" type="button">問合せ一覧</button>
+    <button id="tabCred" type="button">ログイン情報</button>
+    <button id="tabConv" type="button">自動変換一覧</button>
   </div>
 
   <main id="viewLinks"></main>
